@@ -3,7 +3,7 @@ package com.codegnan.fundamentals;
 import java.util.Scanner;
 
 public class CompountInterestCalculator {
-
+//to check compount interest
 	public static void main(String[] args) {
 		System.out.println("enter a prnciple");
 		Scanner scanner=new Scanner(System.in);
