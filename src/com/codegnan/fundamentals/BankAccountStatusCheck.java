@@ -6,6 +6,7 @@ public class BankAccountStatusCheck {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//git 31-05-2026
 		System.out.println("Enter balance");
 Scanner sc=new Scanner(System.in);
 double balance=sc.nextDouble();
