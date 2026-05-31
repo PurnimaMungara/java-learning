@@ -7,6 +7,7 @@ public class AreaofTriangle {
 	public static void main(String[] args) {
 		System.out.println("enter a base");
 		// TODO Auto-generated method stub
+		//Area of triangle
 		Scanner scanner=new Scanner(System.in);
 		int base=scanner.nextInt();
 		System.out.println("enter a height");
