@@ -6,6 +6,7 @@ public class BalanceAmount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Balance amount
  Scanner sc=new Scanner(System.in);
  int Balance=sc.nextInt();
  int DepositeAmout=sc.nextInt();
