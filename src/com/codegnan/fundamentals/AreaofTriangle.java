@@ -13,7 +13,7 @@ public class AreaofTriangle {
 		int height=scanner.nextInt();
 		double areaoftriangle=0.5*base*height;
 		System.out.println("Area of Triangle"+areaoftriangle);
-		
+		scanner.close();
 		
 
 	}

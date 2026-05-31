@@ -16,8 +16,10 @@ public class StudentDetails {
 			System.out.println("Enter a grade");
 			char grade=scanner.next().charAt(0);	
 			System.out.println("name of the Student:"+name);
+			System.out.println("name of the Student:"+marks);
 			System.out.println("rollno :"+rollnumber);
 			System.out.println("grade:"+grade);
+			scanner.close();
 		}
 	}
 

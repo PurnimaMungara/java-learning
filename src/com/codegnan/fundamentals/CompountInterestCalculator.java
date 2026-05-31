@@ -17,6 +17,7 @@ public class CompountInterestCalculator {
 		// TODO Auto-generated method stub
 		System.out.println("Amount:"+amount);
 		System.out.println("compoundInterst is:"+compoundInterest);
+		scanner.close();
  
 	}
 

@@ -16,6 +16,7 @@ public class SimpleInterestCaluculator {
 		double total_amount=si+principle;
 		System.out.println("simple inter"+si);
 		System.out.println("total_amount"+total_amount);
+		scanner.close();
 	}
 
 }

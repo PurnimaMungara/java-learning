@@ -11,7 +11,7 @@ public class TemperatureConverter {
 		double celsius=scanner.nextDouble();
 		double fahrenheit=(celsius*9/5+32);//convert celsius to fahrenheit
 		System.out.println("Convertion from celsius to fahrenheit"+fahrenheit);
-		
+		scanner.close();
 
 	}
 

@@ -11,6 +11,7 @@ Scanner scanner=new Scanner(System.in);
 double fahrenheit=scanner.nextDouble();
 double celsius=(fahrenheit-32*5/9);
 System.out.println("convert from fahrenheit to celsius"+celsius);
+scanner.close();
 	}
 
 }
