@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Discount_calculation {
    public static void main(String args[]) {
+	   //to calculate discount
 	   System.out.println("Enter a shopping amount");
 	   Scanner sc=new Scanner(System.in);
 	   double amount=sc.nextInt();
