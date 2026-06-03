@@ -17,7 +17,6 @@ System.out.println("Enter a Final Milk ratio");
 double m2=sc.nextDouble();
 System.out.println("Enter a Final Water Ratio");
 double w2=sc.nextDouble();
-double InitialmilkFraction=m1/(m1+w1);
 double FinalmilkFraction=m2/(m2+w2);
 double capacity=Q/(1-FinalmilkFraction/FinalmilkFraction);
 System.out.println(capacity);
