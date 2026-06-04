@@ -45,8 +45,7 @@ public class AtmOperation {
 				balance-=withdrawamount;
 				System.out.println("Successfully"+balance);
 			}
-			break;
-		
+			break;	
 		
 	case 3:
 		System.out.println("enter a deposite");
@@ -54,7 +53,7 @@ public class AtmOperation {
 		if(depositeamount%100!=0) {
 			System.out.println("please enter multiples of 100");}
 		else {
-			if(balance<500) {
+			if(balance<=500) {
 				System.out.println("Your balance is low");
 			}
 		
