@@ -23,6 +23,7 @@ public class SpyNumber {
 		else {
 			
 			System.out.println("Not a spy number");
+			sc.close();
 		}
 
 	}

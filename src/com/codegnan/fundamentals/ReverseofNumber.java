@@ -5,7 +5,6 @@ public class ReverseofNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int number=153;
-		int originalnumber=number;
 		int reversenumber=0;
 		while(number!=0)
 		{
@@ -15,6 +14,7 @@ public class ReverseofNumber {
 		
 		}
 		System.out.println( "Reverse of a number  is "+reversenumber);
+		
 	}
 
 }

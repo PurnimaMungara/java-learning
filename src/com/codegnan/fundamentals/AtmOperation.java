@@ -18,8 +18,8 @@ public class AtmOperation {
 		else {
 			if(pin!=enterpin) {
 				System.out.println("Invalid");
-			}
 				return;
+			}
 			
 			}
 		
@@ -80,7 +80,7 @@ public class AtmOperation {
   while(choice!=4) ;
 		sc.close();
 		}
-}
+	}
 
 
 	

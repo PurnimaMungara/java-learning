@@ -7,7 +7,6 @@ public class LeftPattern {
 		        int n = 3;
 		        int num = 1;
 		        for (int i = 1; i <= n; i++) {
-		            // spaces for ali
 		            for (int j = i; j < n; j++) {
 		                System.out.print("  ");
 		            }
