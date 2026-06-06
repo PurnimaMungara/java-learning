@@ -18,9 +18,11 @@ public class AtmOperation {
 		else {
 			if(pin!=enterpin) {
 				System.out.println("Invalid");
-				return;
 			}
-		}
+				return;
+			
+			}
+		
 		int choice;
 		do {
 			System.out.println("===========================");

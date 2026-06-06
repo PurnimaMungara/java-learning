@@ -16,6 +16,7 @@ public class ElectricityTest {
 		        bill = units > 500 ? bill + bill * 0.05 : bill;
 		        
 		        System.out.println(bill);
+		        sc.close();
 		     
 		    }
 

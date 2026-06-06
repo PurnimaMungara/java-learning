@@ -9,7 +9,7 @@ public class Palindromestring {
 		Scanner sc =   new Scanner(System.in);
 		String[] names= {"nani","kusuma","latha","meena","reena"};
 		for(String str:String) {
-			System.out.println(str+"is"+(ispalindromes(str)?"is a palindrome"?"not a palindrome"));
+			System.out.println(str+"is"+(ispalindromes(str)?"is a palindrome":"not a palindrome"));
 			
 		}
 		sc.close();
