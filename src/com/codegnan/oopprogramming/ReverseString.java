@@ -1,0 +1,22 @@
+package com.codegnan.oopprogramming;
+
+import java.util.Scanner;
+
+public class ReverseString {
+	public static void main(String args[]) {
+ Scanner sc=new Scanner(System.in);
+
+ String str =sc.nextLine();
+ String reverse=" ";
+ for(int i=str.length()-1;i>=0;i--) {
+	 char currentChar=str.charAt(i);
+	 reverse+=currentChar;
+	// TODO Auto-generated method stub
+
+System.out.println(reverse);// TODO Auto-generated method stub
+
+}
+}
+}
+
+
