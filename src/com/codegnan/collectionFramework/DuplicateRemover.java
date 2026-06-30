@@ -18,7 +18,7 @@ for(Integer a:number) {
 	System.out.println(a+" ");
 }
 System.out.println();
-ArrayList<Integer> uniqueList=new ArrayList();
+ArrayList<Integer> uniqueList=new ArrayList<>();
 for(Integer i:number) {
 	if(!uniqueList.contains(i)) {
 		uniqueList.add(i);
@@ -26,6 +26,7 @@ for(Integer i:number) {
 }
 for(Integer j:uniqueList) {
 	System.out.println(j+" ");
+	sc.close();
 }
 	}
 

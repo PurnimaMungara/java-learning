@@ -1,7 +1,7 @@
 package com.codegnan.oop;
 
 public class LibraryFineCalculator {
- public static int claculateTotalFine(int dayOverdue) {
+ 
 		public static int calculateTotalFine(int daysOverdue) {
 			// validate input
 			if (daysOverdue < 0) {
@@ -13,7 +13,9 @@ public class LibraryFineCalculator {
 				}
 				return fine;
 			}
-		}
+		
+			}
+
 
 		public int calculateBookFine(int days, String bookType) {
 			if (days < 0) {
@@ -22,16 +24,48 @@ public class LibraryFineCalculator {
 				int rate = 0;
 				if (bookType.equals("regular")) {
 					rate = 2;
-				} else {
+				} 
+			else {
 					if (bookType.equals("premium")) {
 						rate = 3;
 					}
-				}
+			}
+				
 				int fine = days * rate;
 				if (fine > 1000) {
 					fine = 1000;
 				}
 				return fine;
 			}
-		}
-	}
+			}
+		
+				
+			}
+
+
+	
+		
+			
+ 
+ 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	
